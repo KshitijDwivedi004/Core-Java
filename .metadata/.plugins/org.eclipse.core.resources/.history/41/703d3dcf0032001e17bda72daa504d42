@@ -1,0 +1,16 @@
+package Enum;
+
+enum week{
+	MON ,TUE, WED , THUR , FRI;
+	
+}
+
+public class enumClass {
+	enum result{
+		PASS, FAIL ;
+	}
+public static void main(String args[]) {
+	week day = week.MON;
+	System.out.println(day);
+}
+}

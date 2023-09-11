@@ -1,0 +1,26 @@
+package com.durgesh.jdbc.main;
+
+import java.net.ConnectException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class first {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			
+		String url= "jdbc:mysql://localhost:3306/";
+		String userName = "root";
+		String password="123";
+		
+		Connection conn = DriverManager.getConnection(url,userName,password);
+		System.out.println("Connected SuccessFully");
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+
+}

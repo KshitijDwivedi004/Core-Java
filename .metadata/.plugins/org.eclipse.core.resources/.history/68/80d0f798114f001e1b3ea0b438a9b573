@@ -1,0 +1,12 @@
+package com.durgesh.jdbc.main;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		first f1 = new first();
+		f1.connect();
+//		f1.createTable();
+		f1.insertData("kshitij", "Nagod");
+	}
+
+}

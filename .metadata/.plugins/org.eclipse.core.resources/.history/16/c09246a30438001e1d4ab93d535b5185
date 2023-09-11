@@ -1,0 +1,10 @@
+package anno;
+
+public class learningAnno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
